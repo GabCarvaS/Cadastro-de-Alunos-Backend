@@ -6,6 +6,8 @@ A API é responsável pela lógica de negócios, autenticação e persistência 
 
 ## 🚀 Stack Tecnológico
 
+![Stack Completo do Projeto Full Stack: ASP.NET Core, React, Entity Framework, Axios, Visual Studio, VS Code.](Anexos/tecnologias.png)
+
 | Tecnologia | Função | Pacote (Versão) |
 | :--- | :--- | :--- |
 | **Framework Base** | [cite_start]**ASP.NET Core** na plataforma **.NET 8.0**. | - |
@@ -15,6 +17,13 @@ A API é responsável pela lógica de negócios, autenticação e persistência 
 | **Documentação** | [cite_start]**Swagger/OpenAPI** para documentação interativa dos endpoints. | `Swashbuckle.AspNetCore` |
 
 ---
+
+### 🔑 Fluxo de Autenticação e Login
+
+![Diagrama do Fluxo de Login, mostrando a comunicação do React via Axios com a API e SQL Server.](Anexos/estrutura.png)
+
+---
+
 ## 🔑 Rotas Principais da API
 
 A API segue o padrão REST e utiliza autenticação via **Bearer Token** (JWT) para todas as operações de gerenciamento de dados (`Alunos`).
@@ -30,8 +39,7 @@ A API segue o padrão REST e utiliza autenticação via **Bearer Token** (JWT) p
 
 ## 🛡️ Autenticação
 
-Authorization: Bearer SEU_TOKEN_JWT_AQUI
-...
+** `Authorization: Bearer SEU_TOKEN_JWT_AQUI`
 
 ---
 ## 🛠️ Configuração Inicial
