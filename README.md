@@ -10,11 +10,11 @@ A API é responsável pela lógica de negócios, autenticação e persistência 
 
 | Tecnologia | Função | Pacote (Versão) |
 | :--- | :--- | :--- |
-| **Framework Base** | [cite_start]**ASP.NET Core** na plataforma **.NET 8.0**. | - |
-| **Autenticação** | [cite_start]Implementação de **JWT Bearer Token** e **ASP.NET Identity**. | `JwtBearer` / `Identity.EFCore` |
-| **ORM** | [cite_start]**Entity Framework Core** para mapeamento objeto-relacional. | - |
-| **Banco de Dados** | [cite_start]**SQL Server**. | `EFCore.SqlServer` |
-| **Documentação** | [cite_start]**Swagger/OpenAPI** para documentação interativa dos endpoints. | `Swashbuckle.AspNetCore` |
+| **Framework Base** | **ASP.NET Core** na plataforma **.NET 8.0**. | - |
+| **Autenticação** | Implementação de **JWT Bearer Token** e **ASP.NET Identity**. | `JwtBearer` / `Identity.EFCore` |
+| **ORM** | **Entity Framework Core** para mapeamento objeto-relacional. | - |
+| **Banco de Dados** | **SQL Server**. | `EFCore.SqlServer` |
+| **Documentação** | **Swagger/OpenAPI** para documentação interativa dos endpoints. | `Swashbuckle.AspNetCore` |
 
 ---
 
