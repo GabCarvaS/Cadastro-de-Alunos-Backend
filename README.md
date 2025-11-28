@@ -39,7 +39,7 @@ A API segue o padrão REST e utiliza autenticação via **Bearer Token** (JWT) p
 
 ## 🛡️ Autenticação
 
-** Authorization: `Bearer SEU_TOKEN_JWT_AQUI`
+Authorization: `Bearer SEU_TOKEN_JWT_AQUI`
 
 ---
 ## 🛠️ Configuração Inicial
